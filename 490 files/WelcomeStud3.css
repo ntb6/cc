@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html{
+  height: 100%;
+
+}
+
+body{
+  min-height: 100%;
+
+  background-image: url("login.jpeg");
+
+  /* Center and scale the image nicely */
+
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+
+</style>
+</head>
+<body>
