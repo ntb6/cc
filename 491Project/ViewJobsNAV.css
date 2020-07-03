@@ -1,0 +1,194 @@
+
+select option{
+    font-family: 'Tangerine', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input[type="text"]
+{
+    font-family: 'Tangerine', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+div{
+    color: #ff8080;
+    font-family: 'Tangerine', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+}
+
+/* BORDER */
+.container{
+    background-color:rgb(255, 50, 50);
+    display:flex; */
+}
+.fixed{
+    background-color:#4F628E;
+    width: 700px;
+}
+/* Background for table */
+.flex-item{
+    background-color: #eeeeee;
+    flex-grow: 1;
+
+}
+.wrapper{
+    overflow:hidden;
+    overflow-y: scroll;
+    height: 1000px;
+    /* change this to desired height */
+
+}
+* {
+    box-sizing: border-box;
+}
+.button {
+    background-color: #2E4272; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#search {
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 15px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+#myInput {
+    /* Add a search icon to input */
+    /* background-image: url('/css/searchicon.png');  */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+    font-family: 'Tangerine', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+  }
+
+#myTable th, #myTable td {
+    text-align: left;
+    padding: 12px;
+        font-family: 'Tangerine', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#myTable tr {
+    border-bottom: 1px solid #ddd;
+    font-family: 'Tangerine', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#myTable tr.header, #myTable tr:hover {
+    background-color: #ff8080;
+    
+
+}
+
+body {
+    background-color: #444;
+    margin: 0;
+}
+
+/*SECOND TABLE*/
+
+#two {
+    border-collapse: collapse;
+    width: 75%;
+    border: 1px solid aliceblue;
+    font-size: 18px;
+        font-family: 'Tangerine', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#two th, #two td {
+    text-align: left;
+    padding: 12px;
+}
+
+/* header background color */
+th{
+    background-color: #d1d1d1;
+}
+
+#two tr {
+    border-bottom: 1px solid #ddd;
+}
+
+#two tr.header, #two tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* BACKGROUND BACKGROUND */
+
+body {
+    background-color: #eeeeee;
+    margin: 0;
+}
+
+#wrapper {
+    margin: 0 auto;
+}
+#leftcolumn, #rightcolumn {
+    border: 1px solid white;
+    float: left;
+    min-height: 450px;
+    color: white;
+}
+#leftcolumn {
+    width: 250px;
+    background-color: #111;
+}
+
+#rightcolumn {
+    width: 750px;
+    background-color: #777;
+}
+
+#wrapper {
+    width: 1005px;
+    margin: 0 auto;
+}
+#leftcolumn, #rightcolumn {
+    border: 1px solid white;
+    float: left;
+    min-height: 450px;
+    color: white;
+}
+#leftcolumn {
+    width: 250px;
+    background-color: #111;
+}
+
+#rightcolumn {
+    width: 750px;
+    background-color: #777;
+}
+
+table {
+    empty-cells: hide;
+}
+p {
+    visibility: hidden;
+}
+
+.table-wrapper
+{
+    border: 1px solid blue;
+    width: 100px;
+    height: 50px;
+    overflow: auto;
+}

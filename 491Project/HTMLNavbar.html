@@ -1,0 +1,142 @@
+
+<style>
+
+    .header-basic-light{
+        
+        padding: 10px 20px;  /* moves navbar text up and down */
+        box-sizing:border-box;
+        box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
+        height: 69px;
+        background-color: #eeeeee;
+
+    }
+    .header-basic-light .header-limiter {
+        max-width: 1200px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /*491 logo*/
+.logo{
+
+    position: absolute;
+top: 5px; left: 128px;
+
+    margin: 0;
+    max-width: 68px;
+    max-height: 68px;
+
+        /*icims logo*/
+}
+.logo2{
+    position: absolute;
+    top: 0px; left: 220px;
+    margin: 0;
+    max-width: 87px;
+    max-height: 87px;
+}
+
+
+    /* Logo */
+    .header-basic-light .header-limiter h1{
+        float: left;
+        font-family: 'Tangerine', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif normal 28px ;
+        line-height: 40px;
+        margin: 0;
+    }
+
+    .header-basic-light .header-limiter nav{
+        font-family:10px 'Tangerine', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        line-height: 40px;
+        float: right;
+    }
+    .header-basic-light .header-limiter nav a{
+        display: inline-block;
+        padding: 0 5px;
+        opacity: 0.9;
+        text-decoration:none;
+        font-family: 'Tangerine', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: rgb(26, 26, 26);  /* white "all texts on the right side" */
+        line-height:1;
+    }
+    .header-basic-light .header-limiter nav a.selected {
+        background-color: #86a3d5;
+        color: #181818;
+        border-radius: 3px;
+        padding:6px 10px;
+    }
+    @media all and (max-width: 600px) {
+        .header-basic-light {
+            padding: 20px 0;
+            height: 85px;
+        }
+        .header-basic-light .header-limiter h1 {
+            float: none;
+            margin: -8px 0 10px;
+            text-align: center;
+            font-size: 24px;
+            line-height: 1;
+            
+        }
+        .header-basic-light .header-limiter nav {
+            line-height: 1;
+            float:none;
+        }
+        .header-basic-light .header-limiter nav a {
+            font-size: 5px;
+        }
+    }
+    body {
+        margin:0;
+        padding:0;
+    }
+    .bruh{
+        position: absolute;
+        font-size: 14px;
+        font-family: 'Tangerine', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        top: 25px; right: 280px;
+    }
+    .bruh2{
+        position: absolute;
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        top: 17px; right: 150px;
+
+        border: none;
+        padding: 12px 5px;
+        text-decoration: none;
+        display: inline-block;
+    }
+    hr { 
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+border-color:red;
+} 
+    </style>
+
+<!----------------------------------------------------END OF CSS ---------------------------------------------------------->
+
+<!--------------------------------------------------START OF NAVBAR ------------------------------------------------------->
+<header class="header-basic-light">
+	<div class="header-limiter">
+       <img class="logo" src="491logo.png">
+       <img class="logo2" src="icimslogo.png">
+     
+		<nav class="bruh">
+            <a href="javascript:history.back()"></a></nav>
+            
+		<nav class="bruh2">	
+            <a href="https://491final.s3.amazonaws.com/ViewJobsLargerNavBar.html" target="_top">RETURN</a>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<hr>
